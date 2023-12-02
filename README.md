@@ -26,13 +26,18 @@ $ source setup.sh
 ## Running the Demo
 ![](network/assets/demo_out.jpg)
 
-We provide four sample input images in `data/assets` folder. The images should consist of exactly two objects. To run the demo, you first need to download data and config from this [Google Drive folder](https://drive.google.com/drive/folders/1uHwu3YmJnQm5I3HqxDYCuv_NbvvDndRX). `models` folder contains the sevral pre-trained model and used config, while `data` folder contains images and dataset.
+We provide four sample input images in `data/assets` folder. The images should consist of exactly two objects. To run the demo, you first need to download data and config from this [Google Drive folder](https://drive.google.com/drive/folders/1uHwu3YmJnQm5I3HqxDYCuv_NbvvDndRX). `models` folder contains the several pre-trained models, while `data` folder contains images and dataset.
 
-Assuming contents of the `Models` directory are in `$MODEL_DIR` and contents of the `Data` directory are in `$DATA_DIR`, you can run:
+Before you run 'demo.sh', you need to ckeck and set the pathes of input image and output directory in 'demo.sh':
 ```
-$ cd network
-$ python demo.py --model_path $MODEL_DIR/model_best.pth --data_dir $DATA_DIR/Dataset --config_path $MODEL_DIR/config.yaml
+INPUT_IMAGE="/MultiDreamer/data/input/1.png"
+OUTPUT_DIR="/MultiDreamer/data/output/1/"
 ```
+and then, you can run :
+'''
+$ bash demo.sh
+'''
+
 You will see image overlay and CAD visualization are displayed one by one. Open3D mesh visualization is an interactive window where you can see geometries from different viewpoints.
 Close the Open3D window to continue to the next visualization. You will see similar results to the image above.
 
