@@ -34,19 +34,9 @@ INPUT_IMAGE="/MultiDreamer/data/input/1.png"
 OUTPUT_DIR="/MultiDreamer/data/output/1/"
 ```
 and then, you can run :
-'''
+```
 $ bash demo.sh
-'''
-
-You will see image overlay and CAD visualization are displayed one by one. Open3D mesh visualization is an interactive window where you can see geometries from different viewpoints.
-Close the Open3D window to continue to the next visualization. You will see similar results to the image above.
-
-For headless visualization, you can specify an output directory where resulting images and meshes are placed:
 ```
-$ python demo.py --model_path $MODEL_DIR/model_best.pth --data_dir $DATA_DIR/Dataset --config_path $MODEL_DIR/config.yaml --output_dir $OUTPUT_DIR
-```
-
-You may use the `--wild` option to visualize results with "wild retrieval". Note that we omit the `table` category in this case due to large size diversity.
 
 ## Preparing Data
 ### Downloading Processed Data (Recommended)
