@@ -4,7 +4,7 @@ Code release of our paper [MultiDreamer](https://google.com). Check out our [pap
 ![](images/asdfa.jpg)
 
 ## Development Environment
-# We use the following development environment for this project:
+### We use the following development environment for this project:
 - Nvidia RTX 3090 GPU
 - Intel Xeon Processor
 - Ubuntu 22.04
