@@ -26,7 +26,7 @@ $ source setup.sh
 ## Running the Demo
 ![](network/assets/demo_out.jpg)
 
-We provide four sample input images in `network/assets` folder. The images are captured with a smartphone and then preprocessed to be compatible with ROCA format. To run the demo, you first need to download data and config from this [Google Drive folder](https://drive.google.com/drive/folders/1ZOY50DjC85n06fTyYPc8feZiy9-fif3j?usp=sharing). `Models` folder contains the pre-trained model and used config, while `Data` folder contains images and dataset.
+We provide four sample input images in `data/assets` folder. The images should consist of exactly two objects. To run the demo, you first need to download data and config from this [Google Drive folder](https://drive.google.com/drive/folders/1uHwu3YmJnQm5I3HqxDYCuv_NbvvDndRX). `models` folder contains the sevral pre-trained model and used config, while `data` folder contains images and dataset.
 
 Assuming contents of the `Models` directory are in `$MODEL_DIR` and contents of the `Data` directory are in `$DATA_DIR`, you can run:
 ```
