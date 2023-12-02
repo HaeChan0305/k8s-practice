@@ -4,34 +4,15 @@ Code release of our paper [MultiDreamer](https://google.com). Check out our [pap
 ![](images/asdfa.jpg)
 
 ## Development Environment
-### We use the following development environment for this project:
+We use the following development environment for this project:
 - Nvidia RTX 3090 GPU
 - Intel Xeon Processor
 - Ubuntu 22.04
 - CUDA Version 11.7
-
-Semantic-SAM
-- cudatoolkit 11.7.1
-- Python 3.8.18
-- torch 1.13.1
+- cudatoolkit 10.2.89, 11.7.1
+- torch 1.10.1, 1.13.1
+- torchvision 0.11.2
 - Detectron2 0.6
-
-Stable Diffusion Inpainting
-- cudatoolkit 10.2.89 
-- Python 3.8.18
-- torch 1.10.1+cu113
-- torchvision 0.11.2+cu113
-- Detectron2 0.6
-
-SyncDreamer
-- Python 3.8.18
-- torch 1.10.1+cu111
-- torchvision 0.11.2+cu111
-
-ZoeDepth
-- Python 3.9.7
-- cudatoolkit 11.7.1
-- Pytorch 1.13.1
 
 ## Installation
 This code is developed using anaconda3 with Python 3.8 and 3.9 ([download here](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)), therefore we recommend a similar setup.
