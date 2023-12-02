@@ -1,32 +1,40 @@
-# ROCA: Robust CAD Model Alignment and Retrieval from a Single Image (CVPR 2022)
-Code release of our paper [ROCA](https://niessnerlab.org/projects/guemeli2021roca.html). Check out our
- [video](https://www.youtube.com/watch?v=eNANbgKotHU), [paper](https://openaccess.thecvf.com/content/CVPR2022/html/Gumeli_ROCA_Robust_CAD_Model_Retrieval_and_Alignment_From_a_Single_CVPR_2022_paper.html), and [website](https://cangumeli.github.io/ROCA/)!
+# MultiDreamer: Generating 3D mesh from a Single-view Multi-objects Image
+Code release of our paper [MultiDreamer](https://google.com). Check out our [paper](https://google.com), and [website](https://multidreamer-demo.web.app)!
 
-![](https://niessnerlab.org/papers/2022/3roca/teaser.jpg)
-
-If you find our paper or this repository helpful, please cite:
-```
-@article{gumeli2022roca,
-  title={ROCA: Robust CAD Model Retrieval and Alignment from a Single Image},
-  author={G{\"u}meli, Can and Dai, Angela and Nie{\ss}ner, Matthias},
-  booktitle={Proc. Computer Vision and Pattern Recognition (CVPR), IEEE},
-  year={2022}
-}
-```
+![](images/asdfa.jpg)
 
 ## Development Environment
 We use the following development environment for this project:
 - Nvidia RTX 3090 GPU
-- Intel Xeon W-1370
-- Ubuntu 20.04
-- CUDA Version 11.2
-- cudatoolkit 11.0
-- Pytorch 1.7
-- Pytorch3D 0.5 or 0.6
-- Detectron2 0.3
+- Intel Xeon Processor
+- Ubuntu 22.04
+- CUDA Version 11.7
+
+Semantic-SAM
+- cudatoolkit 11.7.1
+- Python 3.8.18
+- torch 1.13.1
+- Detectron2 0.6
+
+Stable Diffusion Inpainting
+- cudatoolkit 10.2.89 
+- Python 3.8.18
+- torch 1.10.1+cu113
+- torchvision 0.11.2+cu113
+- Detectron2 0.6
+
+SyncDreamer
+- Python 3.8.18
+- torch 1.10.1+cu111
+- torchvision 0.11.2+cu111
+
+ZoeDepth
+- Python 3.9.7
+- cudatoolkit 11.7.1
+- Pytorch 1.13.1
 
 ## Installation
-This code is developed using anaconda3 with Python 3.8 ([download here](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)), therefore we recommend a similar setup.
+This code is developed using anaconda3 with Python 3.8 and 3.9 ([download here](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)), therefore we recommend a similar setup.
 
 You can simply run the following code in the command line to create the development environment:
 ```
