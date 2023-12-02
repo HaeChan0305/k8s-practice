@@ -22,7 +22,6 @@ You can simply run the following code in the command line to create the developm
 $ source setup.sh
 ```
 
-For visualizing some demo results or using the data preprocessing code, you need our custom rasterizer. In case the provided [x86-64 linux shared object](/renderer/scan2cad_rasterizer.cpython-38-x86_64-linux-gnu.so) does not work for you, you may install the rasterizer [here](https://github.com/cangumeli/Scan2CADRasterizer).
 
 ## Running the Demo
 ![](network/assets/demo_out.jpg)
